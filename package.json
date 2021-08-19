@@ -23,11 +23,16 @@
     "keywords": [
         "linter",
         "eslint",
+        "jsdoc",
+        "react",
         "code quality"
     ],
     "dependencies": {
         "eslint": "~7.32.0",
         "eslint-plugin-jsdoc": "~36.0.7",
-        "eslint-plugin-react": "~7.24.0"
+        "eslint-plugin-no-secrets": "~0.8.9",
+        "eslint-plugin-no-unsanitized": "~3.1.5",
+        "eslint-plugin-react": "~7.24.0",
+        "eslint-plugin-security": "~1.4.0"
     }
 }
