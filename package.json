@@ -1,0 +1,33 @@
+{
+    "name": "loli",
+    "description": "Comprehensive JavaScript Linter.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Yaroslav Surilov",
+        "email": "zhibirc.echo@gmail.com",
+        "url": "http://test.directory/"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "homepage": "https://github.com/zhibirc/loli#readme",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:zhibirc/loli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/zhibirc/loli/issues",
+        "email": "zhibirc.echo@gmail.com"
+    },
+    "keywords": [
+        "linter",
+        "eslint",
+        "code quality"
+    ],
+    "dependencies": {
+        "eslint": "~7.32.0",
+        "eslint-plugin-jsdoc": "~36.0.7",
+        "eslint-plugin-react": "~7.24.0"
+    }
+}
