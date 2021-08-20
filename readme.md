@@ -35,12 +35,33 @@ Tune **scripts** section in project's `package.json`, for example:
 ```json
 {
     "scripts": {
-        "lint:js": "eslint \"src/**/*.js\"",
-        "lint:fix": "npm run lint:js -- --fix"
+        "lint": "eslint \"src/**/*.js\"",
+        "lint:fix": "npm run lint -- --fix"
     }
 }
 ```
 
+For more efficient usage in real projects it's recommended to add "pre-commit" hook to ensure that potential problems are localized before getting into the code base.
+
+Install required package:
+
+```shell
+# https://www.npmjs.com/package/pre-commit
+npm install --save-dev pre-commit
+# or
+# https://www.npmjs.com/package/husky
+npm install husky --save-dev
+```
+
+Then tune `package.json` file appropriately, for example:
+
+```json
+{
+    "pre-commit": [
+        "lint"
+    ]
+}
+```
 
 ## But why? 😐
 
